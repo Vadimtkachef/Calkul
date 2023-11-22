@@ -1,12 +1,14 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cal{
     width: 600px;
     height: auto;
-    box-shadow: 0px 4px 6px 0px gray;
+    box-shadow: 12px 11px 21px 1px rgb(21, 6, 66);
     padding: 10px;
     margin-top: 5px;
+    background-color: rgb(129, 93, 164);
+    border-radius: 3%;
 }
 .cal>h3{
     font-weight: 900;
@@ -16,14 +18,16 @@ body{
 }
 .inp{
     width: 600px; 
-    height: 72px; 
-    font-size: 35px;
-    text-align: right;
+    height: 128px; 
+    font-size: 60px;
     border: 1px solid rgba(240, 240, 255, 0.835);
     border-radius: 5px;
     box-shadow: 0px 4px 6px 0px gray;
     background-color: rgba(240, 240, 255, 0.835);
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
 }
 .cal-ch{
     margin-top: 30px;
@@ -34,13 +38,16 @@ body{
 .ch{
     align-self: center;
     margin: auto;
-    background-color: rgba(240, 240, 255, 0.835);
-    text-align: center;
-    font-size: 30px;
-    border-radius: 5px;
+    background-color: rgba(161, 170, 40, 0.835)
+    text-align: center; 
+    font-size: 90px;
+    border-radius: 60px;
     box-shadow: 0px 4px 6px 0px rgba(240, 240, 255, 0.835);
     margin: 5px;
     border: 1px solid rgba(240, 240, 255, 0.835);
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .ch-1{
     width: 170px;
@@ -51,8 +58,14 @@ body{
     height: 120px;
 }
 .r{
-    border: 1px solid rgba(235, 10, 10, 0.835);
+    border: 5px solid rgba(235, 10, 10, 0.835);
+    padding: 16px;
+    background-color: brown;
+    box-shadow: 10px 10px 8px 1px rgba(235, 10, 10, 0.835);
 }
 .g{
-    border: 1px solid rgba(10, 235, 70, 0.835);
+    border: 5px solid rgba(11, 59, 24, 0.835);
+    background-color: green;
+    box-shadow: 10px 10px 8px 1px rgba(11, 59, 24, 0.835);
+
 }
