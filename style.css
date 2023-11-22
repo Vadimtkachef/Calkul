@@ -19,7 +19,7 @@ body{
 .inp{
     width: 600px; 
     height: 128px; 
-    font-size: 60px;
+    font-size: 50px;
     border: 1px solid rgba(240, 240, 255, 0.835);
     border-radius: 5px;
     box-shadow: 0px 4px 6px 0px gray;
@@ -37,17 +37,23 @@ body{
 }    
 .ch{
     align-self: center;
-    margin: auto;
-    background-color: rgba(161, 170, 40, 0.835)
-    text-align: center; 
+    background-color: rgba(161, 170, 40, 0.835);
+    text-align: center;
     font-size: 90px;
     border-radius: 60px;
     box-shadow: 0px 4px 6px 0px rgba(240, 240, 255, 0.835);
     margin: 5px;
     border: 1px solid rgba(240, 240, 255, 0.835);
     display: flex;
-    align-items: center;
-    justify-content: center
+    align-items: center; 
+    justify-content: center;
+    transition: 0.3s; 
+    position: relative; 
+    top: 0; left: 0; 
+}    
+.ch:active {
+    box-shadow: none; 
+    top: 3px; left: 3px; 
 }
 .ch-1{
     width: 170px;

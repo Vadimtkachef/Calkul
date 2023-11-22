@@ -90,7 +90,7 @@ y.onclick=function(){
     }
 }
 rez.onclick = function Rez(){
-    document.getElementById('inp-rez').innerHTML=eval(Zap());
+    document.getElementById('inp-rez').innerHTML=eval(Zap());      
 }
 clear.onclick = function (){
     document.getElementById('inp-rez').innerHTML='';
