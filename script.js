@@ -1,3 +1,13 @@
+const textContainer =  
+              document.getElementById("text-container"); 
+        
+        let hue = 0; 
+  
+        setInterval(() => { 
+            hue = (hue + 1) % 360; 
+            const color = `hsl(${hue}, 100%, 50%)`; 
+            textContainer.style.color = color; 
+        }, 50); 
 c0.onclick = function(){
     if(log == 0){
         alert(0);
@@ -95,3 +105,4 @@ rez.onclick = function Rez(){
 clear.onclick = function (){
     document.getElementById('inp-rez').innerHTML='';
 }
+
